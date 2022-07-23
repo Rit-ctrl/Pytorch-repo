@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scikit-learn
+pytorch>=1.4
+torchvision>=0.5
+torchtext
+torchviz
+tensorboard
+opencv
+librosa
+nb_conda_kernels
