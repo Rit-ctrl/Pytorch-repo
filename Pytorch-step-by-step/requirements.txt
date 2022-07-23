@@ -1,11 +1,13 @@
 numpy
 matplotlib
+numpy
 scikit-learn
-pytorch>=1.4
-torchvision>=0.5
+torch
+torchvision
 torchtext
 torchviz
 tensorboard
-opencv
+opencv-python
 librosa
-nb_conda_kernels
+jupyter
+# nb_conda_kernels
