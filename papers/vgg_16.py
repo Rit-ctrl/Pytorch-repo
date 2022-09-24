@@ -1,6 +1,8 @@
 import torch
 from torch import nn
 
+#input 3 channel@224*224
+
 
 VGG_types = {
     "VGG11": [64, "M", 128, "M", 256, 256, "M", 512, 512, "M", 512, 512, "M"],
@@ -107,6 +109,7 @@ if __name__ == "__main__":
     model = VGG(in_channels=3,num_classes=10,architecture_type='VGG16')
     
     model.to(device)
+    
 
     x = torch.randn(3,3,224,224).to(device)
     # print(model)
